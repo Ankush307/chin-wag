@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    font-family: "Roboto Slab", serif;
+}
+
+.container {
+    max-width: 1140px !important;
+}
+
+.background-img {
+    background-image: url(/assets/image/bg-img.png);
+    background-repeat: no-repeat;
+}
+
+.bg-color {
+    content: "";
+    background-color: #BBCFCF;
+}
+
+.card-main-heading {
+    line-height: 119%;
+}
+
+.box-para {
+    line-height: 131%;
+    max-width: 269px;
+    padding-top: 29px;
+}
+
+.box-btn {
+    width: 365px;
+    height: 52px;
+    margin-bottom: 40px;
+}
+.btn-hover-2:hover{
+    color: white;
+    background-color: var(--fc-dark-green);
+}
+.btn-hover-1:hover{
+    color: white;
+    background-color: var(--fc-green);
+}
+
+.mb-38 {
+    margin-bottom: 38px;
+}
+
+.tron-logo{
+    top: 10%;
+    left: 5%;
+}
+.half-circle{
+   bottom: 10%;
+   right: 5%;
+}
+
+
+@media (max-width:992px) {
+    .box-btn {
+        max-width: 270px;
+    }
+    
+}
